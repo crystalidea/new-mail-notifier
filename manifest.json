@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "New Mail Notifier",
+  "version": "1.0",
+  "description": "Outputs new email subjects when they arrive.",
+  "author": "Your Name",
+  "applications": {
+    "gecko": {
+      "id": "new-mail-notifier@example.com"
+    }
+  },
+  "permissions": [
+    "messagesRead",
+    "accountsRead"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
